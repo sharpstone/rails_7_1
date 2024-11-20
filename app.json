@@ -1,0 +1,16 @@
+{
+    "name": "i ama rails app",
+    "description": "",
+    "scripts": {
+        "test": "bundle exec rake test"
+    },
+    "formation": {},
+    "addons": [
+        "heroku-postgresql"
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/ruby"
+        }
+    ]
+}
